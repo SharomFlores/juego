@@ -5,7 +5,6 @@ body{
 }
 
 
-
 #in1{
 
 	margin-top:70px ;
@@ -13,12 +12,20 @@ body{
 	width: 350px;
 	font-size: 25px;
 	text-align: center;
+	border-radius: 20px;
+	border:5px hidden  green; 
+}
+
+.pantalla-inicio{
+  background-image: url(../img/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nombre{
 	margin-top: 200px;
+	color: #00050c;  
 }
-
 
 #boton1{
 	margin-top:30px ;
@@ -29,85 +36,141 @@ body{
 }
 
 #saludar{
-	color: white;
+	color: #00050c;
 	text-align: center;
 }
 
-
-.peliculas{
-	width:450px;
-	height: 50px;
-	margin-left: 50px;
-	margin-bottom: 10px;
-	margin-right: 50px;
+.introduccion1{
+   color: #025cdb;
 }
-
-.series{
-	width:450px;
-	height: 50px;
-	margin-left: 50px;	
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 50px;
-}
-
-.animes{
-	width:600px;
-	height: 50px;
-	margin-left: 50px;
-	margin-top: 10px;
-}
-
-.videojuegos{
-	width:600px;
-	height: 50px;
-	margin-left: 50px;
-	margin-top: 10px;
-}
-
-.comidas{
-	width:600px;
-	height: 50px;
-	margin-left: 50px;
-	margin-top: 10px;
-}
-
 .introduccion2{
+	color: #033984;
 	margin-left: 30px;
 	margin-top: 30px;
 	margin-top: 10px;
 }
+.contenedor1{
+    background-image: linear-gradient(to bottom right,#0ef4b3,#428cf4,white);	
+    border:9px double black;
+    border-radius: 20px;
+    margin-bottom: 15px;
 
+}
+.animales{
+	width:250px;
+	height: 50px;
+	margin-left: 40px;
+	margin-bottom: 2px;
+	margin-right: 40px;
+	margin-top: 60px;
+	border-radius: 20px;
+}
+#fotoAniales{
+	width: 300px;
+	margin-left: 20px;
+	border-radius: 25px;
+    margin-bottom:20px; 
+    margin-top:20px; 
+}
+.contenedor2{
+   background-image: linear-gradient(to bottom right, red , yellow,green) ;	
+    border:9px double black;
+   border-radius: 20px;
+   margin-bottom: 15px;
+}
+
+.animes{
+	width:250px;
+	height: 50px;
+	margin-left: 60px;
+	margin-bottom: 2px;
+	margin-right: 50px;
+	margin-top: 60px;
+	border-radius: 20px;
+}
+#fotoAnime{
+	width: 300px;
+	margin-left: 30px;
+	border-radius: 25px;
+    margin-bottom:20px; 
+    margin-top:20px; 
+}
+
+.contenedor3{
+	background-image: linear-gradient(to bottom right,#0ef4b3,#1760dd,#428cf4,black);
+	border:9px double black;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.peliculas{
+	width:250px;
+	height: 50px;
+	margin-left: 60px;
+	margin-bottom: 2px;
+	margin-right: 50px;
+	margin-top: 60px;
+	border-radius: 20px;
+}
+#fotoPelicula{
+	width: 300px;
+	margin-left: 30px;
+	border-radius: 25px;
+    margin-bottom:20px; 
+    margin-top:20px; 
+}
+
+.contenedor4{
+	background-image: linear-gradient(to bottom right,red,yellow,#0bba19,black) ;
+    border:9px double black;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.series{
+	width:250px;
+	height: 50px;
+	margin-left: 60px;
+	margin-bottom: 2px;
+	margin-right: 50px;
+	margin-top: 60px;
+	border-radius: 20px;
+}
+#fotoSeries{
+	width: 300px;
+	margin-left: 30px;
+	border-radius: 25px;
+    margin-bottom:20px; 
+    margin-top:20px; 
+}
+.contenedor5{
+    background-image: linear-gradient(to bottom right,#0ef4b3,#1760dd,#428cf4,black) ;
+    border:9px double  black;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.videojuegos{
+	width:250px;
+	height: 50px;
+	margin-left: 60px;
+	margin-bottom: 2px;
+	margin-right: 50px;
+	margin-top: 60px;
+	border-radius: 20px;
+} 
+.fotoVideoJuegos{
+	width: 300px;
+	margin-left: 30px;
+	border-radius: 25px;
+    margin-bottom:20px; 
+    margin-top:20px; 
+}
 
 p{
-	color: white;
+	color: black;
 	text-align: center;
 }
 
 
-.contenedor1{
 
-background-color: #f48c42;	
-border:1px dotted black;
-
+.pntalla-juejoAnimales{
+	background-color: green; 
 }
-
-#fotoPelicula{
-	width: 300px;
-	margin-left: 30px;
-}
-
-.contenedor2{
-   background-color: #f48c42;	
-   border:1px dotted black;
-   margin-top: 20px;
-}
-
-#fotoSeries{
-	width: 300px;
-	margin-left: 30px;
-	height: 200px;
-}
-
-
-#
